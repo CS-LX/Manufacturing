@@ -1,0 +1,12 @@
+{
+  "Name": "工造-自动合成台(1.2)",
+  "Logo": "icon.png",
+  "Version": "1.2.0",
+  "ApiVersion": "1.44",
+  "Description": "",
+  "ScVersion": "2.3",
+  "Link": "https://space.bilibili.com/312642275",
+  "Author": "LX..(HIM-LX)",
+  "PackageName": "com.manufacturingcrafter",
+  "Dependencies": []
+}

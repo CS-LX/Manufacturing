@@ -259,7 +259,7 @@ namespace Game
             m_subsystemPickables = Project.FindSubsystem<SubsystemPickables>(throwOnError: true);
             m_subsystemProjectiles = Project.FindSubsystem<SubsystemProjectiles>(throwOnError: true);
             m_componentBlockEntity = Entity.FindComponent<ComponentBlockEntity>(throwOnError: true);
-            m_craftingGridSize = (int)MathUtils.Sqrt(SlotsCount - 2);
+            m_craftingGridSize = (int)Math.Sqrt(SlotsCount - 2);
 
             //List<int> ids = subsystemElectricity.
         }

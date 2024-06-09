@@ -37,8 +37,38 @@
 		<Reference Include="EntitySystem">
 			<HintPath>D:\DllUsing\1.6\EntitySystem.dll</HintPath>
 		</Reference>
+		<Reference Include="Esprima">
+		  <HintPath>references\Esprima.dll</HintPath>
+		</Reference>
+		<Reference Include="Jint">
+		  <HintPath>references\Jint.dll</HintPath>
+		</Reference>
+		<Reference Include="NAudio.Core">
+		  <HintPath>references\NAudio.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="NAudio.Flac">
+		  <HintPath>references\NAudio.Flac.dll</HintPath>
+		</Reference>
+		<Reference Include="NLayer">
+		  <HintPath>references\NLayer.dll</HintPath>
+		</Reference>
+		<Reference Include="NLayer.NAudioSupport">
+		  <HintPath>references\NLayer.NAudioSupport.dll</HintPath>
+		</Reference>
+		<Reference Include="NVorbis">
+		  <HintPath>references\NVorbis.dll</HintPath>
+		</Reference>
+		<Reference Include="OpenTK">
+		  <HintPath>references\OpenTK.dll</HintPath>
+		</Reference>
+		<Reference Include="SixLabors.ImageSharp">
+		  <HintPath>references\SixLabors.ImageSharp.dll</HintPath>
+		</Reference>
 		<Reference Include="Survivalcraft">
 			<HintPath>D:\DllUsing\1.6\Survivalcraft.dll</HintPath>
+		</Reference>
+		<Reference Include="TextCopy">
+		  <HintPath>references\TextCopy.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
@@ -49,5 +79,31 @@
 		<Compile Include="CrafterWidget.cs" />
 		<Compile Include="Properties\AssemblyInfo.cs" />
 		<Compile Include="SubsystemCrafterBlockBehavior.cs" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Assets\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="Assets\Add\Crafter\Blocks.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Assets\Add\Crafter\CrafterWidget.xml">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="icon.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="modinfo.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Crafter.xdb">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Crafter.csv">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="Crafter.cr">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 </Project>

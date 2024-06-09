@@ -1,0 +1,27 @@
+﻿<CubeFunctionMod>
+	<!--行为注册1 11000000-->
+	<Folder Name="BlockBehaviors" Guid="00c97f0f-731e-481c-9909-eae9cc5ee940">
+		<SubsystemTemplate Name="CrafterBlockBehavior" Guid="00000000-ccd4-4a36-a137-38d19e65f09d" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+			<Parameter Name="Class" Guid="00000000-038c-417b-a2b7-32770d7f0875" Value="Game.SubsystemCrafterBlockBehavior" Type="string" />
+		</SubsystemTemplate>
+	</Folder >
+	<!--行为注册2 11000000-->
+	<ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+		<MemberSubsystemTemplate Name="CrafterBehavior" Guid="00000000-4c77-4c14-8385-1a7dad8063ad" InheritanceParent="00000000-ccd4-4a36-a137-38d19e65f09d" />
+	</ProjectTemplate >
+
+	<Folder Name="Gameplay" Guid="d3d4b692-acc9-4128-9b99-a5acf1de1fbb">
+		<ComponentTemplate Name="Crafter" Description="A crafting table" Guid="00000000-8ca8-4d0f-af8d-25bfe9b56a19" InheritanceParent="81a44c6a-c30a-4f53-8d64-0c30aabab8f9">
+			<Parameter Name="Class" Guid="00000000-0480-45c8-9266-18c8060a236c" Value="Game.ComponentCrafter" Type="string" />
+		</ComponentTemplate>
+	</Folder>
+	<Folder Name="Entities" Guid="5fcdf35f-7001-442c-883e-e0502b15d291">
+		<EntityTemplate Name="Crafter" Guid="00000000-5fa2-4df6-bb98-5878b645f215">
+			<MemberComponentTemplate Name="BlockEntity" Guid="00000000-96bc-4f0a-afa1-25e329cabd17" InheritanceParent="09a85cba-d94e-41b8-9497-f20ed942c17e" />
+			<MemberComponentTemplate Name="Crafter" Guid="00000000-10c6-4a2c-9ea5-725fffee2229" InheritanceParent="00000000-8ca8-4d0f-af8d-25bfe9b56a19">
+				<Parameter Name="SlotsCount" Guid="00000000-224e-402f-84e8-08ba76134dc0" Value="11" Type="int" />
+				<Parameter Name="SlotStates" Description="Current heat level in furnace" Guid="00000000-79c4-0000-b043-f9d3010d7e95" Value="511" Type="int" />
+			</MemberComponentTemplate>
+		</EntityTemplate>
+	</Folder>
+</CubeFunctionMod>

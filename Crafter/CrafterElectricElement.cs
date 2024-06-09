@@ -49,7 +49,7 @@ namespace Game
                     m_isDispenseAllowed = false;
                     m_lastDispenseTime = SubsystemElectricity.SubsystemTime.GameTime;
 
-                    int voltage = (int)MathUtils.Round(m_voltage * 15f);
+                    int voltage = (int)Math.Round(m_voltage * 15f);
 
                     DispenserBlock.Mode mode = ((voltage >> 2) & 1) == 1 ? DispenserBlock.Mode.Shoot : DispenserBlock.Mode.Dispense;
                     m_subsystemBlockEntities.GetBlockEntity(CellFaces[0].Point.X, CellFaces[0].Point.Y, CellFaces[0].Point.Z)?.Entity.FindComponent<ComponentCrafter>()?.DisposeResults(mode);
