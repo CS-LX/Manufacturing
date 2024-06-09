@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{5CF53598-36C7-44DC-B116-DA0B75F78847}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<RootNamespace>Crafter</RootNamespace>
+		<AssemblyName>Crafter</AssemblyName>
+		<TargetFramework>net8.0</TargetFramework>
+		<FileAlignment>512</FileAlignment>
+		<Deterministic>true</Deterministic>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="Engine">
+			<HintPath>D:\DllUsing\1.6\Engine.dll</HintPath>
+		</Reference>
+		<Reference Include="EntitySystem">
+			<HintPath>D:\DllUsing\1.6\EntitySystem.dll</HintPath>
+		</Reference>
+		<Reference Include="Survivalcraft">
+			<HintPath>D:\DllUsing\1.6\Survivalcraft.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="ClickableSlotWidget.cs" />
+		<Compile Include="ComponentCrafter.cs" />
+		<Compile Include="CrafterBlock.cs" />
+		<Compile Include="CrafterElectricElement.cs" />
+		<Compile Include="CrafterWidget.cs" />
+		<Compile Include="Properties\AssemblyInfo.cs" />
+		<Compile Include="SubsystemCrafterBlockBehavior.cs" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CEngine_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CEntitySystem_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CEsprima_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CJint_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CNAudio_002ECore_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CNAudio_002EFlac_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CNLayer_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CNLayer_002ENAudioSupport_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CNVorbis_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005COpenTK_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CSixLabors_002EImageSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CSurvivalcraft_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=D_003A_005CCS_0020Project_005CManufacturing_005CCrafter_005Creferences_005CTextCopy_002Edll/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
